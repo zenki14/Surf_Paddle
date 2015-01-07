@@ -6,13 +6,18 @@ ul {
 	padding-left: 0;
 }
 
+/*Container Styles*/
+div .container {
+	width: 1300px;
+}
+
 /*Header Styles */
 
 header {
 	background-image: url(assets/header.jpg);
 	overflow: auto;
 	margin: 0 auto;
-	width: 1300px;
+	height: 523px;
 }
 
 header .headertopleft {
