@@ -1,0 +1,22 @@
+/*Universal Styles*/
+li {
+	list-style: none;
+}
+ul {
+	padding-left: 0;
+}
+
+
+/*Header Styles */
+
+header {
+	background-image: url(assets/header.jpg);
+}
+
+header .headertopleft {
+	float: left;
+}
+
+header .headertopright {
+	float: right;
+}
