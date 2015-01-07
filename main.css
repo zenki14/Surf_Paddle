@@ -6,11 +6,13 @@ ul {
 	padding-left: 0;
 }
 
-
 /*Header Styles */
 
 header {
 	background-image: url(assets/header.jpg);
+	overflow: auto;
+	margin: 0 auto;
+	width: 1300px;
 }
 
 header .headertopleft {
@@ -19,4 +21,13 @@ header .headertopleft {
 
 header .headertopright {
 	float: right;
+}
+
+header a {
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+header .title {
+	text-transform: uppercase;
 }
