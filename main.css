@@ -1,16 +1,17 @@
 /*Universal Styles*/
-li {
+ul,li,p {
 	list-style: none;
-}
-
-ul {
-	padding-left: 0;
+	padding: 0;
+	margin: 0;
 }
 
 body {
 	width: 1300px;
 }
 
+.container {
+margin: 0;
+ }
 
 
 
@@ -22,18 +23,41 @@ header {
 
 header .logo {
 	float: left;
+	padding-left: 140px;
+	padding-top: 9px;
 }
 
 header .logotxt {
 	float: left;
+	padding-left: 13px;
+	padding-top: 22px;
+	font-size: 18px;
 }
 
 header .about {
 	float:right;
+	padding-right: 12px;
+	padding-top: 24px;
+	font-size: 16px;
 }
 
 header .search {
 	float: right;
+	padding-right: 174px;
+	padding-top: 20px;
+}
+
+header #icon {
+	float: right;
+	padding-left: 6px;
+}
+nav {
+	/*overflow: auto;*/
+	padding-top: 1px;
+}
+
+nav > ul {
+	overflow: auto;
 }
 
 nav a {
