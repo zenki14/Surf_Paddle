@@ -18,6 +18,7 @@ header {
 	overflow: auto;
 	margin: 0 auto;
 	height: 523px;
+	width: 1300px;
 }
 
 header .headertopleft {
@@ -35,4 +36,10 @@ header a {
 
 header .title {
 	text-transform: uppercase;
+	text-align: center;
+	padding-top: 200px;
+}
+
+header h4 {
+text-align: center;
 }
