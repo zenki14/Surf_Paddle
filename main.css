@@ -1,0 +1,43 @@
+/*Universal Styles*/
+li {
+	list-style: none;
+}
+
+ul {
+	padding-left: 0;
+}
+
+body {
+	width: 1300px;
+}
+
+
+
+
+/*Header Styles*/
+header {
+	background-image: url(assets/header.jpg);
+	height: 523px;
+}
+
+header .logo {
+	float: left;
+}
+
+header .logotxt {
+	float: left;
+}
+
+header .about {
+	float:right;
+}
+
+header .search {
+	float: right;
+}
+
+nav a {
+	text-decoration: none;
+	color: HSLA(204, 82%, 17%, 1);
+}
+
