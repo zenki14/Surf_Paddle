@@ -1,4 +1,4 @@
-/*Universal Styles*/
+Universal Styles*/
 
 ul {
 	padding: 0;
@@ -40,18 +40,23 @@ header a {
 	color: HSLA(204, 82%, 17%, 1);
 }
 
-.topleft {
+.logo {
 	float: left;
-	padding-top: 10px;
-	padding-left: 141px;
+	display: block;
+	padding-top: 10px	
 }
- .topleft img {
+
+ .logo img {
+	padding-left: 141px;
+	margin: 0;
  	vertical-align: middle;
  }
 
- .topleft span {
- 	padding-left: 9px;
- 	font-size: 14px;
+ .logo span {
+ 	padding-left: 11px;
+	font-size: 14px;
+	vertical-align: middle;
+	text-transform: uppercase;
  }
 
 .topright {
@@ -65,14 +70,18 @@ header a {
 }
 
 .topright li:first-child {
-	padding-top: 24px;
-	padding-right: 9px;
+	padding-top: 2px;
+	padding-right: 20px;
 }
 
 .topright li:last-child {
-	padding-top: 20px;
-	padding-right: 159px;
+	padding-top: 2px;
+	padding-right: 173px;
 	font-size: 16px;
+}
+
+.topright img {
+	height: 16px;
 }
 /*
 .title {
@@ -163,4 +172,3 @@ margin: 0;
 .share-button span:hover {
 	background-color: HSLA(206, 84%, 38%, 1);
 }
-*/
