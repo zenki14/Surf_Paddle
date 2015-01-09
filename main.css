@@ -9,6 +9,10 @@ li {
 	list-style: none;
 }
 
+p {
+	margin: 0;
+}
+
 
 body {
 	width: 1300px;
@@ -28,6 +32,7 @@ nav {
 	background-image: url(assets/header.jpg);
 	height: 523px;
 	color: HSLA(204, 82%, 17%, 1);
+	font-family: 'Oswald', sans-serif;
 }
 
 header a {
@@ -91,3 +96,33 @@ h3 {
 	font-size: 15px;
 }
 
+/*Article Styles*/
+
+.body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+color: HSLA(204, 82%, 18%, 1);
+margin: 0;
+}
+
+.article-author {
+	color: HSLA(206, 84%, 38%, 1);
+}
+
+.article-date {
+	color: HSLA(207, 18%, 71%, 1);
+}
+
+.article-time {
+	text-decoration: underline;
+}
+
+.text-container {
+
+}
+
+.body-buttons {
+	display: block;
+}
