@@ -24,7 +24,7 @@ nav {
 	text-transform: uppercase;
 }
 
-header {
+.top {
 	background-image: url(assets/header.jpg);
 	height: 523px;
 	color: HSLA(204, 82%, 17%, 1);
