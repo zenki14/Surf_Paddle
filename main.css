@@ -28,14 +28,14 @@ nav {
 	text-transform: uppercase;
 }
 
-.top {
+.top-header {
 	background-image: url(assets/header.jpg);
 	height: 523px;
 	color: HSLA(204, 82%, 17%, 1);
 	font-family: 'Oswald', sans-serif;
 }
 
-header a {
+.top-header a {
 	text-decoration: none;
 	color: HSLA(204, 82%, 17%, 1);
 }
@@ -59,28 +59,28 @@ header a {
 	text-transform: uppercase;
  }
 
-.topright {
+nav ul {
 	float: right;
 	/*padding-top: 24px;
 	padding-right: 168px;*/
 }
 
-.topright li {
+nav ul li {
 	float: left;
 }
 
-.topright li:first-child {
+nav ul li:first-child {
 	padding-top: 2px;
 	padding-right: 20px;
 }
 
-.topright li:last-child {
+nav ul li:last-child {
 	padding-top: 2px;
 	padding-right: 173px;
 	font-size: 16px;
 }
 
-.topright img {
+nav ul img {
 	height: 16px;
 }
 /*
@@ -92,23 +92,29 @@ header a {
 }*/
 
 h1 {
-	padding-top: 213px;
-	padding-left: 189px;
-	font-size: 90px;
+	padding-top: 220px;
+	text-align: center;
+	font-size: 84px;
 	margin: 0;
 	color: white;
 	text-transform: uppercase;
+	line-height: 1;
 }
 h3 {
-	padding-left: 496px;
+	text-align: center;
 	margin: 0;
-	font-size: 15px;
+	font-size: 13px;
+	padding-top: 8px;
 }
 
 /*Article Styles*/
 
 .body {
 	font-family: 'Open Sans', sans-serif;
+}
+
+.article-header {
+	background: none;
 }
 
 h2 {
