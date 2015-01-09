@@ -126,3 +126,41 @@ margin: 0;
 .body-buttons {
 	display: block;
 }
+
+.body-buttons a {
+	text-decoration: none;
+}
+
+.body-buttons span {
+	background-color: HSLA(206, 18%, 69%, 1);
+}
+
+.body-buttons img {
+	background-color: HSLA(205, 8%, 40%, 1);
+}
+
+
+/*.comment-button img:hover {
+	background-color: HSLA(204, 82%, 18%, 1);
+}
+
+.later-button img:hover {
+	background-color: HSLA(204, 82%, 18%, 1);
+}
+
+.share-button img:hover {
+	background-color: HSLA(204, 82%, 18%, 1);
+}
+
+.comment-button span:hover {
+	background-color: HSLA(206, 84%, 38%, 1);
+}
+
+.later-button span:hover {
+	background-color: HSLA(206, 84%, 38%, 1);
+}
+
+.share-button span:hover {
+	background-color: HSLA(206, 84%, 38%, 1);
+}
+*/
