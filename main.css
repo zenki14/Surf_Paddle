@@ -177,4 +177,24 @@ margin: 0;
 
 .share-button span:hover {
 	background-color: HSLA(206, 84%, 38%, 1);
+}*/
+
+.post {
+	width: 325px;
+  height: 330px;
+  float: left;
+  background-color: hsla(154,42%,57%, 1);
+  position:relative;
+  background-size:cover;
 }
+
+.post::after {
+  width:325px;
+  height:330px;
+  position: absolute;
+  top:0;
+  left:0;
+  content: "";
+  opacity: .5;
+}
+
